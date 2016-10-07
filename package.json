@@ -1,0 +1,31 @@
+{
+  "name": "type-safe-immutable-record",
+  "version": "0.0.0",
+  "description": "A strongly typed immutable-js record interface",
+  "main": "index.ts",
+  "scripts": {
+    "test": "tsc --outDir tmp && echo Build passed.",
+    "clean": "rm -rf tmp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ooesili/type-safe-immutable-record.git"
+  },
+  "keywords": [
+    "typescript",
+    "immutable",
+    "record"
+  ],
+  "author": "Wesley Merkel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ooesili/type-safe-immutable-record/issues"
+  },
+  "homepage": "https://github.com/ooesili/type-safe-immutable-record#readme",
+  "devDependencies": {
+    "typescript": "^2.0.3"
+  },
+  "peerDependencies": {
+    "immutable": "^3.8.1"
+  }
+}
