@@ -1,5 +1,6 @@
 Type-safe Immutable Record
 ==========================
+[![wercker status](https://app.wercker.com/status/1089abd5dce0bfe39a3aea5d778ef0e1/s/ "wercker status")](https://app.wercker.com/project/byKey/1089abd5dce0bfe39a3aea5d778ef0e1)
 
 A strongly typed immutable-js record interface.
 
