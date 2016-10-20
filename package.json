@@ -2,10 +2,11 @@
   "name": "type-safe-immutable-record",
   "version": "0.0.0",
   "description": "A strongly typed immutable-js record interface",
-  "main": "index.ts",
+  "main": "index.js",
+  "typings": "index.d.ts",
   "scripts": {
-    "test": "tsc --outDir tmp && echo Build passed.",
-    "clean": "rm -rf tmp"
+    "build": "rm -rf dist && tsc && cp README.md LICENSE package.json dist",
+    "test": "tsc && echo Build passed."
   },
   "repository": {
     "type": "git",
