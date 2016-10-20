@@ -1,6 +1,6 @@
 {
   "name": "type-safe-immutable-record",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A strongly typed immutable-js record interface",
   "main": "index.js",
   "typings": "index.d.ts",
